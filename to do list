@@ -9,8 +9,7 @@ def main():
         choice = input("enter your choice: ")
         if choice =='1':
             print()
-            n_tasks=int(input("how many task you want to add:")
-            )
+            n_tasks=int(input("how many task you want to add:"))
             for i in range(n_tasks):
                 task=input("enter the task:")
                 tasks.append({"task":task,"done":False})
